@@ -1,0 +1,1 @@
+console.log("Inicial JS carregado");

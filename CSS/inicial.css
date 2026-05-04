@@ -1,0 +1,89 @@
+ body {
+        background-color: #0d0d0d;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+        background-color: #000 !important;
+        padding: 1rem 2rem;
+    }
+    .navbar-brand img {
+        height: 40px;
+    }
+    .nav-link {
+        color: #fff !important;
+        font-weight: 500;
+        margin: 0 8px;
+        transition: color 0.3s ease;
+    }
+    .nav-link:hover {
+        color: #FFD700 !important;
+    }
+    .nav-link.active,
+    .tela {
+        color: #FFD700 !important;
+    }
+    .btn-danger {
+        border-radius: 30px;
+        padding: 8px 20px;
+    }
+
+    /* Container inicial */
+    .div_inicial {
+        border-radius: 20px;
+        text-align: center;
+        width: 50vw;
+        max-width: 700px;
+        padding: 3rem;
+        background-color: #111;
+        border: 2px solid #FFD700;
+        color: #fff;
+        animation: entrada 0.8s ease-in-out forwards;
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    .div_inicial h1 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .div_inicial p {
+        color: #bbb;
+        margin-bottom: 1.5rem;
+    }
+    .div_inicial a.zap {
+        display: inline-block;
+        background-color: #FFD700;
+        color: #000 !important;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 10px 25px;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+    }
+    .div_inicial a.zap:hover {
+        background-color: #fff;
+        color: #000 !important;
+    }
+
+    /* Animação */
+    @keyframes entrada {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+        .div_inicial {
+            width: 90vw;
+            padding: 2rem;
+        }
+    }
+
+    .ss{
+        background-color: #FFD700;
+    }

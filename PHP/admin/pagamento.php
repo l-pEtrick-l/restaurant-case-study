@@ -71,7 +71,7 @@ if ($datainicio && $datafim) {
                     <li class="nav-item"><a class="nav-link cor" href="../admin/txs.php"><i class="bi bi-graph-up"></i> Logistico</a></li>
                     <li class="nav-item"><a class="nav-link cor" href="../admin/cadastros.php"><i class="bi bi-person"></i> Usuário</a></li>
                 </ul>
-                <form class="d-flex" method="POST" action="../admin/sair.php">
+                <form class="d-flex" method="POST" action="../sair.php">
                     <button class="btn sairr btn-danger" name="sair" type="submit">Sair</button>
                 </form>
             </div>
@@ -324,6 +324,7 @@ if ($datainicio && $datafim) {
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../../JS/pagamento.js"></script>
 
 
 

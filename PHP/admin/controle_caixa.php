@@ -199,5 +199,5 @@ $mysqli = include __DIR__ . '/../banco/conectar.php';
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="../../JS/controle_caixa.js"></script>
-  <script src="../../JS/sweet_alert_question.js"></script>
+  <script src="../../JS/admin/controle_caixa.js"></script>
+  <script src="../../JS/admin/sweet_alert_question.js"></script>

@@ -56,7 +56,7 @@ $mysqli = include __DIR__ . '/../banco/conectar.php';
 
           <li class="nav-item"><a class="nav-link cor" href="../admin/cadastros.php"><i class="bi bi-person"></i> Usuário</a></li>
         </ul>
-        <form class="d-flex" method="POST" action="../admin/sair.php">
+        <form class="d-flex" method="POST" action="../sair.php">
           <button class="btn sairr btn-danger" name="sair" type="submit">Sair</button>
         </form>
       </div>

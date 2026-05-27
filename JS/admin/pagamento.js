@@ -124,7 +124,7 @@ document.getElementById('salvar-todas').addEventListener('click', () => {
         });
     });
 
-    fetch("../admin/pagamento_api_batch.php", {
+    fetch("../../PHP/admin/actions/process_pagamento_batch.php", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -176,7 +176,7 @@ document.querySelectorAll('.btn-excluir').forEach(btn => {
             fd.append('data_linha', data);
             fd.append('motoboy', motoboy);
 
-            fetch('../admin/pagamento_api_delete.php', {
+            fetch('../../PHP/admin/actions/process_pagamento_delete.php', {
                 method: 'POST',
                 body: fd
             })

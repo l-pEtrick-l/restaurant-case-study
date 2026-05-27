@@ -105,7 +105,7 @@ $mysqli = include __DIR__ . '/../banco/conectar.php';
         <h2 class="mb-4"><i class="bi bi-file-earmark-text"></i> Controle de caixa </h2>
 
         <div class="card p-4 mb-4">
-          <form method="POST" action="../admin/process_temporary.php" id="formCaixa">
+          <form method="POST" action="actions/process_controle_caixa.php" id="formCaixa">
             <div class="row mb-3">
 
               <div class="col-md-3">

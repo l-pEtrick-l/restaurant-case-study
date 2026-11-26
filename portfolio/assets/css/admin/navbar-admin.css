@@ -1,0 +1,13 @@
+    .admin-topbar.navbar { background:#181818 !important; border-bottom:1px solid rgba(255,255,255,.08); }
+    .admin-topbar .navbar-brand img { width:auto; height:36px; }
+    .admin-topbar .nav-link { color:#c9c9c9 !important; border-radius:10px; padding:.55rem .75rem !important; font-size:.88rem; transition:background-color .2s ease,color .2s ease,transform .2s ease; }
+    .admin-topbar .nav-link:hover { color:#fff !important; background:rgba(255,255,255,.08); transform:translateY(-1px); }
+    .admin-topbar .nav-link.active { color:#171717 !important; background:#ffc107; font-weight:700; }
+    .admin-topbar .navbar-toggler { border-color:rgba(255,255,255,.2); box-shadow:none !important; }
+    .admin-topbar .navbar-toggler-icon { background-image:var(--bs-navbar-toggler-icon-bg); }
+    .admin-topbar .admin-logout { border-color:rgba(255,255,255,.75); }
+    .admin-topbar .admin-logout:hover { color:#171717; background:#fff; }
+    .admin-section-toggle-wrap { position:relative; z-index:10; }
+    .admin-section-toggle { border-radius:10px; font-size:.82rem; font-weight:750; }
+    @media (max-width:1199.98px) { .admin-topbar .nav-link { padding:.65rem .75rem !important; } }
+    @media (prefers-reduced-motion:reduce) { .admin-topbar .nav-link { transition-duration:.01ms !important; } }

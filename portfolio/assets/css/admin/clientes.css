@@ -1,0 +1,183 @@
+    body {
+      background-color: #f4f6f9;
+    }
+
+    .navbar {
+      background-color: #212529 !important;
+    }
+
+    .navbar-brand img {
+      height: 35px;
+    }
+
+    #listaCampanhas li.active {
+      background-color: #f9c733ff !important;
+      color: #000 !important;
+    }
+
+    .offcanvas {
+      color: white;
+      background-color: #343a40;
+      min-height: 100vh;
+      padding-top: 20px;
+    }
+
+    .sidebar {
+      background-color: #343a40;
+      min-height: 100vh;
+      padding-top: 20px;
+    }
+
+    .sidebar .nav-link {
+      color: #adb5bd;
+      font-weight: 500;
+    }
+
+    .sidebar .nav-link.active,
+    .sidebar .nav-link:hover {
+      background-color: #ffc107;
+      color: #212529;
+      border-radius: 6px;
+    }
+
+    .content {
+      padding: 30px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-label {
+      font-weight: 600;
+      color: #495057;
+    }
+
+    .btn-submit {
+      background-color: #ffc107;
+      border: none;
+      font-weight: 600;
+      color: #212529;
+      transition: 0.3s;
+    }
+
+    .btn-submit:hover {
+      background-color: #e0a800;
+      color: white;
+    }
+
+    .cor {
+      color: #abb1b9;
+    }
+
+    .navbar-toggler {
+      border-color: #ffc107;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .cor:hover {
+      background-color: #ffc107;
+      border-radius: 15px;
+
+    }
+
+    .ativo {
+      background-color: #ffc107;
+      border-radius: 15px;
+      color: black;
+    }
+
+    .anime {
+      animation-name: animee;
+      animation-duration: 2s;
+    }
+
+    .tabs {
+      display: flex;
+      background: #eee;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .tab {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .tab:hover {
+      background: #ddd;
+    }
+
+    .tab.active {
+      background: #fff;
+      font-weight: bold;
+      border-bottom: 2px solid #ffc107;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .content-section {
+      display: none;
+    }
+
+    .content-section.active {
+      display: block;
+    }
+
+
+    @keyframes animee {
+      0% {
+        color: white;
+        margin-left: -50px;
+      }
+
+      100% {
+        shadow-box: 2px;
+        margin-left: 0px;
+      }
+    }
+
+    /* Fundo da conversa */
+    /* Estilo do balão (igual antes) */
+    #previewMessage,
+    #previewMessageView {
+      background-color: #dcf8c6;
+      border-radius: 10px;
+      max-width: 80%;
+      word-wrap: break-word;
+      position: relative;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+      font-size: 15px;
+    }
+
+    /* Bico do balão — canto direito inferior */
+    #previewMessage::after,
+    #previewMessageView::after {
+      content: "";
+      position: absolute;
+      right: -8px;
+      bottom: 8px;
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-left-color: #dcf8c6;
+    }
+
+    /* Ícone duplo azul igual ao WhatsApp */
+    .bi-check2-all {
+      color: #34b7f1 !important;
+    }
+
+    /* Fonte do horário */
+    #msgTime {
+      font-size: 11px;
+    }

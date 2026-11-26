@@ -1,0 +1,72 @@
+body {
+    background-color: #f4f6f9;
+}
+.navbar {
+    background-color: #212529 !important;
+}
+.navbar-brand img {
+    height: 35px;
+}
+.sidebar {
+    background-color: #343a40;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.offcanvas{
+    color: white;
+      background-color: #343a40;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.aa{
+    justify-items: right;
+    justify-content: right;
+    aling-items: right;
+}
+.sidebar .nav-link {
+    color: #adb5bd;
+    font-weight: 500;
+}
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background-color: #ffc107;
+    color: #212529;
+    border-radius: 6px;
+}
+.content {
+    padding: 30px;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.btn-submit {
+    background-color: #ffc107;
+    border: none;
+    font-weight: 600;
+    color: #212529;
+}
+.btn-submit:hover {
+    background-color: #e0a800;
+    color: white;
+}
+.table-responsive {
+   border-radius: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch; /* rolagem suave no iOS */
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.cor{ color:#abb1b9; } .cor:hover{ background-color: #ffc107; border-radius: 15px; } .ativo{ background-color: #ffc107; border-radius: 15px; color:black; }
+
+.navbar-toggler {
+    border-color: #ffc107;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

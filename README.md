@@ -1,5 +1,7 @@
 # 🍔 Sistema de Gestão para Microempreendedor
 
+> **Edição de portfólio:** o código revisado e a demonstração local com dados fictícios ficam em [`portfolio/`](portfolio/README.md). As instruções abaixo descrevem a versão anterior, mantida na raiz.
+
 Sistema web desenvolvido para auxiliar um microempreendedor do ramo alimentício na administração diária do negócio. O objetivo do projeto é centralizar informações, automatizar processos e reduzir o tempo gasto com tarefas manuais.
 
 ## 📋 Sobre o Projeto
